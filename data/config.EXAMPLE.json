@@ -1,0 +1,16 @@
+{
+    "name": "Workbench LED Strip",
+    "device_id": "workbench-led-strip",
+    "deep_sleep_interval": 600,
+    "wifi": {
+      "ssid": "WIFI_SSID",
+      "password": "WIFI_PASSWORD"
+    },
+    "mqtt": {
+      "host": "xxx.xxx.xxx.xxx",
+      "port": 1883,
+      "base_topic": "basement/light/",
+      "username": "MQTT_USERNAME",
+      "password": "MQTT_PASSWORD"
+    }
+  }
